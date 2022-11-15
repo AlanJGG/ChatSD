@@ -36,9 +36,9 @@ io.on('connection', (socket) =>{
     })
 });
 
-PORT = process.env.PORT || 
+PORT = process.env.PORT; 
 server.listen(PORT, () =>{
-    console.log('Servidor en el puerto 3000')
+    console.log('Servidor en el puerto', PORT)
 });
 
 
